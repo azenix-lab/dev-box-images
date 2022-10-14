@@ -19,8 +19,8 @@ jobs:
     if: "!contains(join(github.event.commits.*.message), '+nobuild')"
 
     env:
-      STORAGE_ACCOUNT: contosoimagesstorage
-      SUBNET_ID: /subscriptions/e5f715ae-6c72-4a5c-87c8-495590c34828/resourceGroups/Contoso-Images/providers/Microsoft.Network/virtualNetworks/contoso-images-vnet/subnets/builders
+      STORAGE_ACCOUNT: imagestoredm
+      SUBNET_ID: /subscriptions/93e9bdf6-7b7b-414a-8c3c-4f0f68aee3d8/resourceGroups/devbox/providers/Microsoft.Network/virtualNetworks/devbox-vnet/subnets/Dev
 
     steps:
       - uses: actions/checkout@v2
