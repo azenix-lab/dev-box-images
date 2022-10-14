@@ -19,7 +19,7 @@ jobs:
     if: "!contains(join(github.event.commits.*.message), '+nobuild')"
 
     env:
-      STORAGE_ACCOUNT: imagestoredm
+      STORAGE_ACCOUNT: imagestoragedm
       SUBNET_ID: /subscriptions/93e9bdf6-7b7b-414a-8c3c-4f0f68aee3d8/resourceGroups/devbox/providers/Microsoft.Network/virtualNetworks/devbox-vnet/subnets/Dev
 
     steps:
