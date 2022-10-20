@@ -30,4 +30,9 @@ publisher: Azenix
 offer: DevBox
 replicaLocations:
   - australiaeast
-buildResourceGroup: devbox
+buildResourceGroup: rg-devbox-building
+virtualNetwork: vnet-devcenter-dm
+virtualNetworkSubnet: dev
+virtualNetworkResourceGroup: rg-devcenter-dm
+subscription: b4167707-1486-401a-ba9b-fb0fb0841114
+

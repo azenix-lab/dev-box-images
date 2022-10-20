@@ -1,2 +1,2 @@
-name: azenix_devbox_cg_dm
-resourceGroup: devbox
+name: cg_testing_dm
+resourceGroup: rg-devcenter-dm
