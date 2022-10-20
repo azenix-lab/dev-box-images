@@ -31,7 +31,7 @@ offer: DevBox
 replicaLocations:
   - australiaeast
 buildResourceGroup: rg-devcenter-dm
-virtualNetwork: vnet-devcenter-dm
+virtualNetwork: rg-devcenter-dm
 virtualNetworkSubnet: dev
 virtualNetworkResourceGroup: rg-devcenter-dm
 subscription: b4167707-1486-401a-ba9b-fb0fb0841114
