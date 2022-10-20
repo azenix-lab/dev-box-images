@@ -20,7 +20,7 @@ jobs:
 
     env:
       STORAGE_ACCOUNT: imagestoragedm
-      SUBNET_ID: /subscriptions/b4167707-1486-401a-ba9b-fb0fb0841114/resourceGroups/rg-devcenter-dm/providers/Microsoft.Network/virtualNetworks/vnet-devcenter-dm/subnets/builder
+      SUBNET_ID: /subscriptions/b4167707-1486-401a-ba9b-fb0fb0841114/resourceGroups/rg-devcenter-dm/providers/Microsoft.Network/virtualNetworks/vnet-devcenter-dm/subnets/dev
 
     steps:
       - uses: actions/checkout@v2
