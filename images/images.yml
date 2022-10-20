@@ -30,7 +30,7 @@ publisher: Azenix
 offer: DevBox
 replicaLocations:
   - australiaeast
-buildResourceGroup: rg-devbox-building
+buildResourceGroup: rg-devcenter-dm
 virtualNetwork: vnet-devcenter-dm
 virtualNetworkSubnet: dev
 virtualNetworkResourceGroup: rg-devcenter-dm
